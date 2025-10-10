@@ -570,6 +570,11 @@ body.lightbox-open {
   height: auto;
   transform-origin: center;
   transition: transform 0.2s ease;
+  cursor: zoom-in;
+}
+
+.lightbox-image-wrapper img.is-zoomed {
+  cursor: zoom-out;
 }
 
 .lightbox-close {
