@@ -28,6 +28,7 @@
         <div class="nav-links" role="menu">
           <a href="#home" role="menuitem">Home</a>
           <a href="#services" role="menuitem">Services</a>
+          <a href="#clients" role="menuitem">Client Results</a>
           <a href="#testimonials" role="menuitem">Testimonials</a>
           <a href="#contact" role="menuitem">Contact</a>
           <a href="#directions" role="menuitem">Directions</a>
@@ -56,9 +57,12 @@
             <a class="btn btn-secondary" href="#contact">Book a Consultation</a>
           </div>
         </div>
-        <div class="hero-image" aria-hidden="true">
-          <img src="https://images.unsplash.com/photo-1507676184212-d03ab07a01bf?auto=format&fit=crop&w=900&q=80" alt="Stylist cutting hair in a modern salon" />
-        </div>
+        <div
+          class="hero-image"
+          role="img"
+          aria-label="Honey balayage with voluminous waves styled in the salon"
+          style="--hero-image: url('assets/images/clients/balayage-honey-waves.png')"
+        ></div>
       </section>
 
       <section id="services" aria-labelledby="services-title">
@@ -97,6 +101,54 @@
               celebrations.
             </p>
           </article>
+        </div>
+      </section>
+
+      <section id="clients" class="client-gallery" aria-labelledby="clients-title">
+        <div class="section-header">
+          <h2 id="clients-title">Client Transformations</h2>
+          <p>
+            Explore recent looks crafted by the HairU artists&mdash;dimensional color, precise cuts, and restorative care that
+            celebrate every guest.
+          </p>
+        </div>
+        <div class="client-gallery-grid" role="list">
+          <figure class="client-card" role="listitem">
+            <div
+              class="client-photo"
+              role="img"
+              aria-label="Balayage highlights blending honey and caramel tones on long waves"
+              style="--client-image: url('assets/images/clients/balayage-honey-waves.png')"
+            ></div>
+            <figcaption>Honey balayage with luminous waves and seamless blending.</figcaption>
+          </figure>
+          <figure class="client-card" role="listitem">
+            <div
+              class="client-photo"
+              role="img"
+              aria-label="Precision chin-length bob with mirror-like shine"
+              style="--client-image: url('assets/images/clients/precision-bob-shine.png')"
+            ></div>
+            <figcaption>Glass-finish precision bob tailored for effortless movement.</figcaption>
+          </figure>
+          <figure class="client-card" role="listitem">
+            <div
+              class="client-photo"
+              role="img"
+              aria-label="Vivid copper color with soft face-framing highlights"
+              style="--client-image: url('assets/images/clients/vivid-copper-lights.png')"
+            ></div>
+            <figcaption>Vivid copper color melt with soft, face-framing brightness.</figcaption>
+          </figure>
+          <figure class="client-card" role="listitem">
+            <div
+              class="client-photo"
+              role="img"
+              aria-label="Defined natural curls after hydration treatment"
+              style="--client-image: url('assets/images/clients/natural-curl-revive.png')"
+            ></div>
+            <figcaption>Hydrating curl revival that boosts definition and bounce.</figcaption>
+          </figure>
         </div>
       </section>
 
