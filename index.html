@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HairU Salon</title>
+    <meta
+      name="description"
+      content="HairU is a modern salon providing elevated hair care services, expertly crafted styles, and luxurious experiences in a sophisticated dark-themed space."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar" aria-label="Primary navigation">
+        <a class="logo" href="#home">HairU Salon</a>
+        <button class="mobile-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          &#9776;
+        </button>
+        <div class="nav-links" role="menu">
+          <a href="#home" role="menuitem">Home</a>
+          <a href="#services" role="menuitem">Services</a>
+          <a href="#testimonials" role="menuitem">Testimonials</a>
+          <a href="#contact" role="menuitem">Contact</a>
+          <a href="#directions" role="menuitem">Directions</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="hero-content">
+          <p class="eyebrow">A modern sanctuary for hair artistry</p>
+          <h1>Transform your look with luminous color & precision cuts.</h1>
+          <p>
+            HairU Salon pairs innovative techniques with indulgent care. Discover bespoke
+            styling tailored to your personality and lifestyle in a setting designed for
+            comfort day or night.
+          </p>
+          <div class="cta-group">
+            <a class="btn btn-primary" href="#services">View Services</a>
+            <a class="btn btn-secondary" href="#contact">Book a Consultation</a>
+          </div>
+        </div>
+        <div class="hero-image" aria-hidden="true">
+          <img src="https://images.unsplash.com/photo-1507676184212-d03ab07a01bf?auto=format&fit=crop&w=900&q=80" alt="Stylist cutting hair in a modern salon" />
+        </div>
+      </section>
+
+      <section id="services" aria-labelledby="services-title">
+        <div class="section-header">
+          <h2 id="services-title">Services</h2>
+          <p>
+            Signature treatments designed to elevate your natural beauty, from everyday glamour
+            to special events.
+          </p>
+        </div>
+        <div class="services-grid">
+          <article class="service-card">
+            <h3>Precision Cuts</h3>
+            <p>
+              Tailored cuts for all hair textures with expert styling guidance for effortless,
+              camera-ready finishes.
+            </p>
+          </article>
+          <article class="service-card">
+            <h3>Custom Color</h3>
+            <p>
+              Dimensional balayage, luminous glossing, and statement color crafted with premium
+              formulas to keep hair healthy.
+            </p>
+          </article>
+          <article class="service-card">
+            <h3>Luxury Treatments</h3>
+            <p>
+              Deep restorative rituals that infuse hydration, shine, and strength from root to tip.
+            </p>
+          </article>
+          <article class="service-card">
+            <h3>Event Styling</h3>
+            <p>
+              Polished blowouts, sculpted updos, and runway-inspired looks for weddings and
+              celebrations.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="testimonials" aria-labelledby="testimonials-title">
+        <div class="section-header">
+          <h2 id="testimonials-title">Testimonials</h2>
+          <p>See what our guests are saying about their HairU experience.</p>
+        </div>
+        <div class="testimonial-list">
+          <article class="testimonial-card">
+            <p>
+              "I feel like a brand new person after every visit. The stylists truly listen and
+              craft a look that feels effortlessly me."
+            </p>
+            <footer>&mdash; Harper L.</footer>
+          </article>
+          <article class="testimonial-card">
+            <p>
+              "The color experts at HairU nailed my balayage and gave me all the tips to keep it
+              vibrant. The ambiance is so relaxing!"
+            </p>
+            <footer>&mdash; Naomi S.</footer>
+          </article>
+          <article class="testimonial-card">
+            <p>
+              "From the head massage to the final touch of hairspray, every detail is luxurious.
+              My wedding hair was perfection."
+            </p>
+            <footer>&mdash; Alana D.</footer>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" aria-labelledby="contact-title">
+        <div class="section-header">
+          <h2 id="contact-title">Contact</h2>
+          <p>Reserve your next appointment or reach out with any questions.</p>
+        </div>
+        <div class="contact-grid">
+          <aside class="contact-info">
+            <h3>Salon Details</h3>
+            <ul>
+              <li>
+                <strong>Phone</strong>
+                <a href="tel:+1234567890">(123) 456-7890</a>
+              </li>
+              <li>
+                <strong>Email</strong>
+                <a href="mailto:hello@hairusalon.com">hello@hairusalon.com</a>
+              </li>
+              <li>
+                <strong>Hours</strong>
+                Tue &ndash; Fri: 10:00 AM &ndash; 7:00 PM<br />
+                Sat: 9:00 AM &ndash; 4:00 PM
+              </li>
+              <li>
+                <strong>Address</strong>
+                215 Aura Avenue, Suite 4<br />
+                Seattle, WA 98101
+              </li>
+            </ul>
+          </aside>
+          <form class="contact-form" action="https://formspree.io/f/xbjwpljk" method="POST">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" required placeholder="Your name" />
+
+            <label for="email">Email</label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              required
+              placeholder="you@example.com"
+            />
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required placeholder="Tell us how we can help"></textarea>
+
+            <button class="btn btn-primary" type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+
+      <section id="directions" aria-labelledby="directions-title">
+        <div class="section-header">
+          <h2 id="directions-title">Directions</h2>
+          <p>
+            Located in the heart of downtown with easy access whether you drive, ride-share, or
+            take transit.
+          </p>
+        </div>
+        <div class="directions">
+          <div class="map-card" aria-label="Map showing HairU Salon location">
+            <iframe
+              title="HairU Salon on Google Maps"
+              loading="lazy"
+              allowfullscreen
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.498384688445!2d-122.33812612359247!3d47.61294318424261!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490154c3f58cb47%3A0x1099ad95b1c0c3a3!2sSeattle%20Downtown!5e0!3m2!1sen!2sus!4v1700000000000"
+            ></iframe>
+          </div>
+          <div class="direction-steps">
+            <article>
+              <h3>Parking</h3>
+              <p>
+                Complimentary validation is available for the Prism Garage across the street. Metered
+                street parking is free after 8 PM.
+              </p>
+            </article>
+            <article>
+              <h3>Transit</h3>
+              <p>
+                The Pine Street light rail station is a 5-minute walk. Bus lines 2, 12, and 49 stop
+                on the corner of Aura Ave and 3rd.
+              </p>
+            </article>
+            <article>
+              <h3>Ride Share</h3>
+              <p>
+                Use the designated pick-up area on the north side of Aura Avenue for quick, safe
+                drop-offs and departures.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        &copy; <span id="year"></span> HairU Salon. Crafted for an elevated experience on desktop and
+        mobile.
+      </p>
+      <p>
+        Built with accessible, responsive design ready for GitHub Pages hosting. Follow us on
+        <a href="#">Instagram</a> for fresh inspiration.
+      </p>
+    </footer>
+
+    <script src="assets/js/main.js" defer></script>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
