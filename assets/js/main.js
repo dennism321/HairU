@@ -30,6 +30,7 @@ const setScale = (scale) => {
   currentScale = Number(Math.min(2.75, Math.max(1, scale)).toFixed(2));
   if (lightboxImage) {
     lightboxImage.style.transform = `scale(${currentScale})`;
+    lightboxImage.classList.toggle('is-zoomed', currentScale > 1);
   }
 };
 
@@ -59,6 +60,7 @@ const openLightbox = (src, alt, trigger) => {
 
 const zoomIn = () => setScale(currentScale + 0.25);
 const zoomOut = () => setScale(currentScale - 0.25);
+const toggleZoom = () => setScale(currentScale > 1 ? 1 : 2);
 
 clientPhotos.forEach((photo) => {
   photo.addEventListener('click', () => {
@@ -83,6 +85,7 @@ lightbox?.addEventListener('click', (event) => {
 
 zoomInButton?.addEventListener('click', zoomIn);
 zoomOutButton?.addEventListener('click', zoomOut);
+lightboxImage?.addEventListener('click', toggleZoom);
 
 document.addEventListener('keydown', (event) => {
   if (!lightbox || lightbox.getAttribute('aria-hidden') === 'true') {
