@@ -1,371 +1,525 @@
+<!--
+author: Boostraptheme
+author URL: https://boostraptheme.com
+License: Creative Commons Attribution 4.0 Unported
+License URL: https://creativecommons.org/licenses/by/4.0/
+-->
+
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HairU Salon</title>
-    <meta
-      name="description"
-      content="HairU is a modern salon providing elevated hair care services, expertly crafted styles, and luxurious experiences in a sophisticated dark-themed space."
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="assets/css/styles.css" />
-  </head>
-  <body>
-    <header>
-      <nav class="navbar" aria-label="Primary navigation">
-        <a class="logo" href="#home" aria-label="HairU Salon home">
-          <img src="assets/images/hairu-logo.svg" alt="HairU Hair Salon logo" />
-        </a>
-        <button class="mobile-toggle" aria-label="Toggle navigation" aria-expanded="false">
-          &#9776;
-        </button>
-        <div class="nav-links" role="menu">
-          <a href="#home" role="menuitem">Home</a>
-          <a href="#services" role="menuitem">Services</a>
-          <a href="#clients" role="menuitem">Client Results</a>
-          <a href="#testimonials" role="menuitem">Testimonials</a>
-          <a href="#contact" role="menuitem">Contact</a>
-          <a href="#directions" role="menuitem">Directions</a>
-        </div>
-      </nav>
-    </header>
+<html class="no-js" prefix="og: http://ogp.me/ns#"  lang="en-IN">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-K2FYNQSTS5"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
 
-    <main>
-      <section id="home" class="hero">
-        <div class="hero-content">
-          <img
-            class="hero-logo"
-            src="assets/images/hairu-logo.svg"
-            alt=""
-            aria-hidden="true"
-          />
-          <p class="eyebrow">A modern sanctuary for hair artistry</p>
-          <h1>Transform your look with luminous color & precision cuts.</h1>
-          <p>
-            HairU Salon pairs innovative techniques with indulgent care. Discover bespoke
-            styling tailored to your personality and lifestyle in a setting designed for
-            comfort day or night.
-          </p>
-          <div class="cta-group">
-            <a class="btn btn-primary" href="#services">View Services</a>
-            <a class="btn btn-secondary" href="#contact">Book a Consultation</a>
-          </div>
-        </div>
-        <div
-          class="hero-image"
-          role="img"
-          aria-label="Salon client with luminous waves and dimensional color"
-          style="--hero-image: url('/assets/images/clients/img-11.jpg')"
-        ></div>
-      </section>
+          gtag('config', 'G-K2FYNQSTS5');
+        </script>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Beauty &amp; Salon - Free Bootstrap 4 Template</title>
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
 
-      <section id="services" aria-labelledby="services-title">
-        <div class="section-header">
-          <h2 id="services-title">Services</h2>
-          <p>
-            Signature treatments designed to elevate your natural beauty, from everyday glamour
-            to special events.
-          </p>
-        </div>
-        <div class="services-grid">
-          <article class="service-card">
-            <h3>Precision Cuts</h3>
-            <p>
-              Tailored cuts for all hair textures with expert styling guidance for effortless,
-              camera-ready finishes.
-            </p>
-          </article>
-          <article class="service-card">
-            <h3>Custom Color</h3>
-            <p>
-              Dimensional balayage, luminous glossing, and statement color crafted with premium
-              formulas to keep hair healthy.
-            </p>
-          </article>
-          <article class="service-card">
-            <h3>Luxury Treatments</h3>
-            <p>
-              Deep restorative rituals that infuse hydration, shine, and strength from root to tip.
-            </p>
-          </article>
-          <article class="service-card">
-            <h3>Event Styling</h3>
-            <p>
-              Polished blowouts, sculpted updos, and runway-inspired looks for weddings and
-              celebrations.
-            </p>
-          </article>
-        </div>
-      </section>
+        <meta name="description" content="Salon Bootstrap Themes & Templates Salon bootstrap themes and templates will help you create an amazing website for your beauty salon of any kind in no time." /> 
+        <link href="img/beauty-salon_logo_96dp.png" rel="apple-touch-icon" sizes="96x96">
+        <link href="img/beauty-salon_logo_96dp.png" rel="icon" sizes="96x96" type="image/png">
+        <meta content="img/beauty-salon_logo_96dp.png" name="msapplication-TileImage">
+        
+        <meta property="og:url" content="https://www.boostraptheme.com/demo/index.html" />
+        <meta property="og:title" content="Beauty and Salon - Free Bootstrap 4 Template | Boostraptheme" />
+        <meta property="og:locale" content="en_IN" /> 
+        <meta property="og:site_name" content="Boostraptheme" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="BoostrapTheme" />
+        <meta name="twitter:creator" content="BoostrapTheme" />
+		
+		<link href="https://fonts.googleapis.com/css?family=Lobster|Roboto:400,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+        <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/owl.theme.default.min.css">
+        <link rel="stylesheet" href="css/magnific-popup.css">
+        <link rel="stylesheet" href="css/animate.min.css">
+        <link rel="stylesheet" href="css/app.css">
 
-      <section id="clients" class="client-gallery" aria-labelledby="clients-title">
-        <div class="section-header">
-          <h2 id="clients-title">Client Transformations</h2>
-          <p>
-            Explore recent looks crafted by the HairU artists&mdash;dimensional color, precise cuts, and restorative care that
-            celebrate every guest.
-          </p>
-        </div>
-        <div class="client-gallery-grid" role="list">
-          <figure class="client-card" role="listitem">
-            <button
-              class="client-photo"
-              type="button"
-              aria-label="Client portrait showing soft waves with subtle highlights"
-              data-image="/assets/images/clients/img-10.jpg"
-              data-alt="Client portrait showing soft waves with subtle highlights"
-              style="--client-image: url('/assets/images/clients/img-10.jpg')"
-            ></button>
-            <figcaption>Polished finish with touchable waves and dimensional shine.</figcaption>
-          </figure>
-          <figure class="client-card" role="listitem">
-            <button
-              class="client-photo"
-              type="button"
-              aria-label="Client portrait featuring a sleek, shoulder-length cut"
-              data-image="/assets/images/clients/img-8.jpg"
-              data-alt="Client portrait featuring a sleek, shoulder-length cut"
-              style="--client-image: url('/assets/images/clients/img-8.jpg')"
-            ></button>
-            <figcaption>Sleek silhouette paired with a smooth, reflective finish.</figcaption>
-          </figure>
-          <figure class="client-card" role="listitem">
-            <button
-              class="client-photo"
-              type="button"
-              aria-label="Client portrait highlighting a rich brunette color service"
-              data-image="/assets/images/clients/img-6.jpg"
-              data-alt="Client portrait highlighting a rich brunette color service"
-              style="--client-image: url('/assets/images/clients/img-6.jpg')"
-            ></button>
-            <figcaption>Rich color depth enhanced with healthy, light-catching gloss.</figcaption>
-          </figure>
-          <figure class="client-card" role="listitem">
-            <button
-              class="client-photo"
-              type="button"
-              aria-label="Client portrait showcasing defined natural curls"
-              data-image="/assets/images/clients/img-4.jpg"
-              data-alt="Client portrait showcasing defined natural curls"
-              style="--client-image: url('/assets/images/clients/img-4.jpg')"
-            ></button>
-            <figcaption>Defined curls shaped for balanced volume and movement.</figcaption>
-          </figure>
-          <figure class="client-card" role="listitem">
-            <button
-              class="client-photo"
-              type="button"
-              aria-label="Client portrait revealing a fresh fringe and soft layering"
-              data-image="/assets/images/clients/img-3.jpg"
-              data-alt="Client portrait revealing a fresh fringe and soft layering"
-              style="--client-image: url('/assets/images/clients/img-3.jpg')"
-            ></button>
-            <figcaption>Soft layering with a modern fringe tailored to frame the face.</figcaption>
-          </figure>
-          <figure class="client-card" role="listitem">
-            <button
-              class="client-photo"
-              type="button"
-              aria-label="Client portrait capturing a formal upstyle with shine"
-              data-image="/assets/images/clients/img-2.jpg"
-              data-alt="Client portrait capturing a formal upstyle with shine"
-              style="--client-image: url('/assets/images/clients/img-2.jpg')"
-            ></button>
-            <figcaption>Event-ready styling featuring a polished, luminous updo.</figcaption>
-          </figure>
-        </div>
-      </section>
+        <script src="js/jquery.min.js"></script>
+        <script> 
+            $(window).on('load', function(){ $(".loader").fadeOut(2000); }); 
+            $(function () {
+                new WOW().init();
+            });
+        </script>
 
-      <section id="testimonials" aria-labelledby="testimonials-title">
-        <div class="section-header">
-          <h2 id="testimonials-title">Testimonials</h2>
-          <p>See what our guests are saying about their HairU experience.</p>
-        </div>
-        <div class="testimonial-list">
-          <article class="testimonial-card">
-            <p>
-              "I feel like a brand new person after every visit. The stylists truly listen and
-              craft a look that feels effortlessly me."
-            </p>
-            <footer>&mdash; Harper L.</footer>
-          </article>
-          <article class="testimonial-card">
-            <p>
-              "The color experts at HairU nailed my balayage and gave me all the tips to keep it
-              vibrant. The ambiance is so relaxing!"
-            </p>
-            <footer>&mdash; Naomi S.</footer>
-          </article>
-          <article class="testimonial-card">
-            <p>
-              "From the head massage to the final touch of hairspray, every detail is luxurious.
-              My wedding hair was perfection."
-            </p>
-            <footer>&mdash; Alana D.</footer>
-          </article>
-        </div>
-      </section>
+    </head>
 
-      <section id="contact" aria-labelledby="contact-title">
-        <div class="section-header">
-          <h2 id="contact-title">Contact</h2>
-          <p>Reserve your next appointment or reach out with any questions.</p>
-        </div>
-        <div class="contact-grid">
-          <aside class="contact-info">
-            <h3>Salon Details</h3>
-            <ul>
-              <li>
-                <strong>Phone</strong>
-                <a href="tel:+1234567890">(123) 456-7890</a>
-              </li>
-              <li>
-                <strong>Email</strong>
-                <a href="mailto:hello@hairusalon.com">hello@hairusalon.com</a>
-              </li>
-              <li>
-                <strong>Hours</strong>
-                Tue &ndash; Fri: 10:00 AM &ndash; 7:00 PM<br />
-                Sat: 9:00 AM &ndash; 4:00 PM
-              </li>
-              <li>
-                <strong>Address</strong>
-                215 Aura Avenue, Suite 4<br />
-                Seattle, WA 98101
-              </li>
-            </ul>
-          </aside>
-          <form class="contact-form" action="https://formspree.io/f/xbjwpljk" method="POST">
-            <label for="name">Name</label>
-            <input id="name" name="name" type="text" required placeholder="Your name" />
+    <body>
 
-            <label for="email">Email</label>
-            <input
-              id="email"
-              name="email"
-              type="email"
-              required
-              placeholder="you@example.com"
-            />
+        <div class="loader"></div>
+        <!-- NAVIGATION 
+            =================-->
+            <div class="topmenu">
+              <div class="container">
+                <div class="row"  id="page-top">
+                  <div class="col-md-6 col-sm-6 phone"> 
+                        <div><i class="fa fa-phone"></i> Call Now: 2107018102</div> 
+                  </div>	
+                  <div class="col-md-6 col-sm-6 address"> 
+                        <div><i class="fa fa-map-marker"></i> Pl. Amvrosiou Plita 18, Athina 116 31</div> 
+                  </div> 
+                </div>
+              </div>
+            </div> 
 
-            <label for="message">Message</label>
-            <textarea id="message" name="message" required placeholder="Tell us how we can help"></textarea>
+            <nav class="navbar navbar-expand-lg navbar-light" id="mainNav" data-toggle="affix">
+              <div class="container-fluid">
+               	<a class="navbar-brand js-scroll-trigger" href="index.html">
+                      <img src="img/hairu-logo.png" style="max-height: 85px;" alt="HairU logo" class="img-fluid">
+                    </a>
+                <button class="navbar-toggler navbar-toggler-center  ml-auto py-3 my-2 " type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                  Menu
+                  <i class="fa fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                  <ul class="navbar-nav text-uppercase ml-auto">
+                  	<li class="nav-item">
+                      <a class="nav-link js-scroll-trigger" href="#home">Home</a>
+                    </li>
+                  	<li class="nav-item">
+                      <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                    </li>  
+                    <li class="nav-item">
+                      <a class="nav-link js-scroll-trigger" href="#team">Team</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link js-scroll-trigger" href="#portfolio">Customer style</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link js-scroll-trigger" href="#testimonials">Testimonials</a>
+                    </li> 
+                    <li class="nav-item">
+                      <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
 
-            <button class="btn btn-primary" type="submit">Send Message</button>
-          </form>
-        </div>
-        <div class="social-buttons" aria-labelledby="connect-title">
-          <h3 id="connect-title">Connect with HairU</h3>
-          <p>Stay inspired and plan your visit through our favorite platforms.</p>
-          <div class="social-buttons-group">
-            <a
-              class="social-button instagram"
-              href="https://www.instagram.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Follow HairU Salon on Instagram"
-            >
-              Instagram
-            </a>
-            <a
-              class="social-button facebook"
-              href="https://www.facebook.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Connect with HairU Salon on Facebook"
-            >
-              Facebook
-            </a>
-            <a
-              class="social-button maps"
-              href="https://maps.google.com/?q=HairU+Salon+Seattle"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Open HairU Salon on Google Maps"
-            >
-              Google Maps
-            </a>
-          </div>
-        </div>
-      </section>
+        <!-- HEADER 
+            =================-->
+            <header id="home">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                      <div class="carousel-item active" > 
+                        <div class="home-content-box"> 
+                            <div class="home-content-box-inner text-center">
+                                <div class="home-heading animated fadeInDown" >
+                                    <h3>Where Confidence Begins<br>Experience the Art of Precision and Modern Style at HairU</h3>
+                                </div>
+                                <div class="home-btn wow fadeInUp" data-wow-delay="0.3s" >
+                                    <a class=" js-scroll-trigger" href="#contact" role="button" title="View Our Work"><button class="btn btn-lg btn-general btn-greenish ">Book Now</button></a>
+                                </div>
+                            </div>
+                        </div>                    
+                      </div>
+                      <div class="carousel-item" >
+                        <div class="home-content-box"> 
+                            <div class="home-content-box-inner text-center">
+                                <div class="home-heading animated fadeInDown" >
+                                	<h3>Your Signature Style, Perfected —<br>Where Every Cut, Color, and Detail Reflects You.</h3>
+                                </div>
+                                <div class="home-btn fadeInDown">
+                                    <a class=" js-scroll-trigger" href="#contact" role="button" title="View Our Work"><button class="btn btn-lg btn-general btn-greenish ">Book Now</button></a>
+                                </div>
+                            </div>
+                        </div> 
+                      </div> 
+                    </div> 
+                </div>
+            </header>
+ 
 
-      <section id="directions" aria-labelledby="directions-title">
-        <div class="section-header">
-          <h2 id="directions-title">Directions</h2>
-          <p>
-            Located in the heart of downtown with easy access whether you drive, ride-share, or
-            take transit.
-          </p>
-        </div>
-        <div class="directions">
-          <div class="map-card" aria-label="Map showing HairU Salon location">
-            <iframe
-              title="HairU Salon on Google Maps"
-              loading="lazy"
-              allowfullscreen
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.498384688445!2d-122.33812612359247!3d47.61294318424261!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490154c3f58cb47%3A0x1099ad95b1c0c3a3!2sSeattle%20Downtown!5e0!3m2!1sen!2sus!4v1700000000000"
-            ></iframe>
-          </div>
-          <div class="direction-steps">
-            <article>
-              <h3>Parking</h3>
-              <p>
-                Complimentary validation is available for the Prism Garage across the street. Metered
-                street parking is free after 8 PM.
-              </p>
-            </article>
-            <article>
-              <h3>Transit</h3>
-              <p>
-                The Pine Street light rail station is a 5-minute walk. Bus lines 2, 12, and 49 stop
-                on the corner of Aura Ave and 3rd.
-              </p>
-            </article>
-            <article>
-              <h3>Ride Share</h3>
-              <p>
-                Use the designated pick-up area on the north side of Aura Avenue for quick, safe
-                drop-offs and departures.
-              </p>
-            </article>
-          </div>
-        </div>
-      </section>
-    </main>
+        <!-- SERVICES 
+            =================-->
+            <section id="services" class="services">
+                <div class="container">
+                	<div class="row mb-5">
+                        <div class="col-md-12 text-center mb-5">
+                            <div class="heading wow fadeInUp" data-wow-delay="0.3s">
+                                <h1>Services</h1>
+                                <div class="bord-bot"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row text-center justify-content-center">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-cont wow fadeInUp" data-wow-delay="1.5s">
+                                <a href="#services-for-her" class="d-block">
+                                    <img src="img/service/for-her.png" alt="For Her" class="img-fluid">
+                                    <div class="service-desc">For Her</div>
+                                </a>
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-cont wow fadeInUp" data-wow-delay="1.8s">
+                                <a href="#services-for-him" class="d-block">
+                                    <img src="img/service/for-him.png" alt="For Him" class="img-fluid">
+                                    <div class="service-desc">For Him</div>
+                                </a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-    <footer>
-      <p>
-        &copy; <span id="year"></span> HairU Salon. Crafted for an elevated experience on desktop and
-        mobile.
-      </p>
-      <p>
-        Built with accessible, responsive design ready for GitHub Pages hosting. Follow us on
-        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a> for fresh inspiration.
-      </p>
-    </footer>
+        <!-- SERVICES FOR HER 
+            =================-->
+            <section id="services-for-her" class="services">
+                <div class="container">
+                    <div class="row mb-5">
+                        <div class="col-md-12 text-center mb-5">
+                            <div class="heading wow fadeInUp" data-wow-delay="0.3s">
+                                <h1>Services For Her</h1>
+                                <div class="bord-bot"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row text-center justify-content-center">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-cont wow fadeInUp" data-wow-delay="0.3s">
+                                <img src="img/service/for-her-classic.png" alt="For Her - Classic" class="img-fluid">
+                                <div class="service-desc">Classic Style</div>
+                                <p class="service-note">Professional Lady Haircut, Blow Dry, Styling</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-cont wow fadeInUp" data-wow-delay="0.6s">
+                                <img src="img/service/for-her-colour.png" alt="For Her - Colour" class="img-fluid">
+                                <div class="service-desc">Colour</div>
+                                <p class="service-note">Color Toner, Highlights, Babylights, Balayage, Ombre, Color Remover</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-cont wow fadeInUp" data-wow-delay="0.9s">
+                                <img src="img/service/for-her-scalp.png" alt="For Her - Scalp Therapy" class="img-fluid">
+                                <div class="service-desc">Hair &amp; Scalp Therapy</div>
+                                <p class="service-note">Malibu C Head Lab, Malibu C Make Over, Vitamin C Therapy, Other Treatments</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-cont wow fadeInUp" data-wow-delay="1.2s">
+                                <img src="img/service/for-her-kerabotox.png" alt="For Her - Keratine &amp; Botox" class="img-fluid">
+                                <div class="service-desc">Keratine &amp; Botox Treatments</div>
+                                <p class="service-note">Treatments to infuse a high amount of protein into the hair, evening out porosity for long-lasting smoothness.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-    <div class="lightbox" role="dialog" aria-modal="true" aria-hidden="true">
-      <div class="lightbox-content">
-        <button class="lightbox-close" type="button" aria-label="Close image preview">&times;</button>
-        <div class="lightbox-image-wrapper">
-          <img src="" alt="" />
-        </div>
-        <div class="lightbox-controls" aria-label="Image zoom controls">
-          <button class="lightbox-zoom lightbox-zoom-out" type="button" aria-label="Zoom out">&minus;</button>
-          <button class="lightbox-zoom lightbox-zoom-in" type="button" aria-label="Zoom in">+</button>
-        </div>
-      </div>
-    </div>
+        <!-- SERVICES FOR HIM 
+            =================-->
+            <section id="services-for-him" class="services">
+                <div class="container">
+                    <div class="row mb-5">
+                        <div class="col-md-12 text-center mb-5">
+                            <div class="heading wow fadeInUp" data-wow-delay="0.3s">
+                                <h1>Services For Him</h1>
+                                <div class="bord-bot"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row text-center">
+                        <div class="col-md-4 col-sm-6 d-flex justify-content-center">
+                            <div class="service-cont wow fadeInUp" data-wow-delay="0.3s">
+                                <img src="img/service/for-him-classic.png" alt="For Him - Classic" class="img-fluid">
+                                <div class="service-desc">Classic Cut</div>
+                                <p class="service-note">We’re dedicated to giving every man a sharp, confident look that enhances his style and elevates his appearance.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 d-flex justify-content-center">
+                            <div class="service-cont wow fadeInUp" data-wow-delay="0.6s">
+                                <img src="img/service/for-him-beard.png" alt="For Him - Beard Trimming" class="img-fluid">
+                                <div class="service-desc">Beard Trimming</div>
+                                <p class="service-note">Our beard trimming service is designed to deliver precise, clean lines and a perfectly groomed look that complements your style.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 d-flex justify-content-center">
+                            <div class="service-cont wow fadeInUp" data-wow-delay="0.9s">
+                                <img src="img/service/for-him-scalp.png" alt="For Him - Scalp Treatments" class="img-fluid">
+                                <div class="service-desc">Scalp Treatments</div>
+                                <p class="service-note">We provide deep scalp scrub that clears buildup, unclogs hair follicles, and removes dead skin and dandruff.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-    <script src="assets/js/main.js" defer></script>
-    <script>
-      document.getElementById('year').textContent = new Date().getFullYear();
-    </script>
-  </body>
+        <!-- ABOUT 
+            =================-->
+            <section id="about" class="about">
+                <div class="container">
+                    <div class="row mb-5">
+                        <div class="col-md-12 text-center ">
+                            <div class="heading wow fadeInUp" data-wow-delay="0.3s">
+                                <h1>About Us</h1>
+                                <div class="bord-bot"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 my-auto">
+                            <div class="body-cont mb-5 wow fadeInUp" data-wow-delay="0.6s">
+                                <h3>Good Hair style Good Selfie</h3>
+                                <div class="bord-bottom"></div>
+                                <p>At our salon, your experience is at the heart of everything we do. We’re dedicated to creating a welcoming space where every visit leaves you feeling confident and cared for. Our team uses only best-in-class, professional-grade products — continuously updating our selection to include the latest innovations in hair care and styling. From start to finish, we focus on precision, comfort, and results that exceed your expectations.</p>
+                                <a href="#contact" class="img-fluid js-scroll-trigger"><button class="btn btn-general btn-white">ENQUIRIES</button></a>
+                            </div>
+                        </div>
+                        <div class="col-md-8 m-auto text-center">
+                            <div class="body-img-1 wow fadeInUp" data-wow-delay="0.9s" style="margin-top:-25px; border-radius: 25px; overflow: hidden; display: inline-block; box-shadow: 0 20px 45px rgba(0, 0, 0, 0.35);">
+                                <img src="img/hair-tools.jpeg" alt="Hair styling tools" class="img-fluid" style="transform: scale(1.25); transform-origin: center;">
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </section> 
+
+        <!-- TEAM 
+            =================-->
+            <section id="team" class="team pb-5">
+                <div class="container">
+                    <div class="row mb-5">
+                        <div class="col-md-12 text-center mb-3">
+                            <div class="heading wow fadeInUp" data-wow-delay="0.3s">
+                                <h1>Our Trusted Brands</h1>
+                                <div class="bord-bot"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="brand-list">
+                        <span class="brand-logo brand-logo--k18">K18</span>
+                        <span class="brand-logo brand-logo--loreal">L'ORÉAL</span>
+                        <span class="brand-logo brand-logo--immortal">IMMORTAL NYC</span>
+                        <span class="brand-logo brand-logo--bk">BRAZILIAN KERATIN</span>
+                    </div>
+                </div>
+            </section>
+
+        <!-- PORTFOLIO 
+            =================-->
+            <section id="portfolio" class="portfolio pb-0 pt-5">
+                <div class="container-fluid">
+                	<div class="row mb-5">
+                        <div class="col-md-12 text-center mb-3">
+                            <div class="heading wow fadeInUp" data-wow-delay="0.3s">
+                                <h1>Our Customer Style</h1>
+                                <div class="bord-bot"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="portfolio-gallery" class="gallery-carousel owl-carousel owl-theme">
+                        <div class="gallery-item wow fadeInUp" data-wow-delay="0.1s">
+                            <a href="img/gallery/img-2.jpg" title="Fresh cut and style">
+                                <img src="img/gallery/img-2.jpg" alt="Fresh cut and style">
+                            </a>
+                        </div>
+                        <div class="gallery-item wow fadeInUp" data-wow-delay="0.2s">
+                            <a href="img/gallery/img-3.jpg" title="Elegant hair updo">
+                                <img src="img/gallery/img-3.jpg" alt="Elegant hair updo">
+                            </a>
+                        </div>
+                        <div class="gallery-item wow fadeInUp" data-wow-delay="0.3s">
+                            <a href="img/gallery/img-4.jpg" title="Modern barber fade">
+                                <img src="img/gallery/img-4.jpg" alt="Modern barber fade">
+                            </a>
+                        </div>
+                        <div class="gallery-item wow fadeInUp" data-wow-delay="0.4s">
+                            <a href="img/gallery/img-5.jpg" title="Colorful styling session">
+                                <img src="img/gallery/img-5.jpg" alt="Colorful styling session">
+                            </a>
+                        </div>
+                        <div class="gallery-item wow fadeInUp" data-wow-delay="0.5s">
+                            <a href="img/gallery/img-6.jpg" title="Stylist finishing touches">
+                                <img src="img/gallery/img-6.jpg" alt="Stylist finishing touches">
+                            </a>
+                        </div>
+                        <div class="gallery-item wow fadeInUp" data-wow-delay="0.6s">
+                            <a href="img/gallery/img-7.jpg" title="Bridal hair inspiration">
+                                <img src="img/gallery/img-7.jpg" alt="Bridal hair inspiration">
+                            </a>
+                        </div>
+                        <div class="gallery-item wow fadeInUp" data-wow-delay="0.7s">
+                            <a href="img/gallery/img-8-nospeaker-clean.png" title="Salon interior details">
+                                <img src="img/gallery/img-8-nospeaker-clean.png" alt="Salon interior details">
+                            </a>
+                        </div>
+                        <div class="gallery-item wow fadeInUp" data-wow-delay="0.8s">
+                            <a href="img/gallery/img-9.jpg" title="Men's grooming experience">
+                                <img src="img/gallery/img-9.jpg" alt="Men's grooming experience">
+                            </a>
+                        </div>
+                        <div class="gallery-item wow fadeInUp" data-wow-delay="0.9s">
+                            <a href="img/gallery/img-11.jpg" title="Vibrant hair color">
+                                <img src="img/gallery/img-11.jpg" alt="Vibrant hair color">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        <!-- TESTIMONIALS 
+            =================-->
+            <section id="testimonials" class="testimonials">
+                <div class="container">
+                    <div class="row mb-5">
+                        <div class="col-md-12 text-center mb-3">
+                            <div class="heading wow fadeInUp" data-wow-delay="0.3s">
+                                <h1>Testimonials</h1>
+                                <div class="bord-bot"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div id="testimonial-slider" class="owl-carousel owl-theme">
+                                <div class="testimonial">
+                                    <div class="pic">
+                                        <img src="img/client/client-1.jpg">
+                                    </div>
+                                <p class="description">
+                                        Exceptional service from Mike &amp; the team at hairU! He will never settle for anything less than perfect - and will make sure that I leave feeling happy and my hair is exactly the way I’ve asked for.
+He is a wonderful colourist and stylist - I will continue coming back to Hair U for any treatment or style.
+                                    </p>
+                                    <h3 class="title">Emily P</h3>
+                                    <small class="post"></small>
+                                </div>
+                                <div class="testimonial">
+                                    <div class="pic">
+                                        <img src="img/client/client-2.jpg">
+                                    </div>
+                                    <p class="description">
+                                        Excellent professional, attention to detail, exactly what I asked for and very kind. Thank you very much! 5 stars and I recommend.
+                                    </p>
+                                    <h3 class="title">Roe M</h3>
+                                    <small class="post"></small>
+                                </div>
+                                <div class="testimonial">
+                                    <div class="pic">
+                                        <img src="img/client/client-3.jpg">
+                                    </div>
+                                    <p class="description">
+                                        There is not a time when I have not left with the result I have requested. Congratulations to the team, you are the best by far.
+                                    </p>
+                                    <h3 class="title">Dora T</h3>
+                                    <small class="post"></small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section> 
+  
+        <!-- CONTACT FORM
+            =================-->
+            <section id="contact" class="contact pb-0">
+              <div class="container"> 
+                <div class="row mb-5">
+                    <div class="col-md-12 text-center">
+                        <div class="heading">
+                            <h1>Contact Us</h1>
+                            <div class="bord-bot"></div>
+                            <p class="desc">We would love to hear from you!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                  <div class="col-lg-10 text-center contact-details">
+                    <p class="contact-item"><span>Telephone:</span> <a href="tel:2107018102">2107018102</a></p>
+                    <p class="contact-item"><span>Address:</span> Pl. Amvrosiou Plita 18, Athina 116 31</p>
+                  </div>
+                </div>
+              </div>
+ 
+              <!-- FOOTER 
+                   =================-->
+                <footer>
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-md-5">
+                        <span class="copyright">Copyright &copy; 2018 Design By <a href="https://boostraptheme.com/">Boostraptheme</a></span>
+                      </div>
+                      <div class="col-md-3">
+                        <ul class="list-inline social-buttons">
+                          <li class="list-inline-item">
+                            <a href="https://www.instagram.com/hair_u/">
+                              <i class="fa fa-instagram"></i>
+                            </a>
+                          </li>
+                          <li class="list-inline-item">
+                            <a href="https://www.facebook.com/hairU.beautysalon">
+                              <i class="fa fa-facebook"></i>
+                            </a>
+                          </li>
+                          <li class="list-inline-item">
+                            <a href="https://www.google.com/maps/place/Hair+U/@37.9582159,23.7374981,17z/data=!4m7!3m6!1s0x14a1bdf0b035df17:0x3d247f68131e5934!4b1!8m2!3d37.9582117!4d23.740073!16s%2Fg%2F11fs21c1z6?entry=ttu&g_ep=EgoyMDI1MTAwOC4wIKXMDSoASAFQAw%3D%3D">
+                              <i class="fa fa-map-marker"></i>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="col-md-4">
+                        <ul class="list-inline quicklinks">
+                          <li class="list-inline-item">
+                            <a href="#">Privacy Policy</a>
+                          </li>
+                          <li class="list-inline-item">
+                            <a href="#">Terms of Use</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </footer> 
+
+                <a href="#page-top" id="back-to-top" class="btn btn-sm btn-green btn-back-to-top  js-scroll-trigger hidden-sm hidden-xs" title="home" role="button">
+                    <i class="fa fa-angle-double-up"></i>
+                </a>
+
+            </section>
+  
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.easing.min.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script> 
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/jqBootstrapValidation.min.js"></script>
+        <script src="js/contact_me.min.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/app.js"></script>
+        <!--Start of Tawk.to Script-->
+            <script type="text/javascript">
+            var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+            (function(){
+            var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+            s1.async=true;
+            s1.src='https://embed.tawk.to/5a6d77fc4b401e45400c7419/default';
+            s1.charset='UTF-8';
+            s1.setAttribute('crossorigin','*');
+            s0.parentNode.insertBefore(s1,s0);
+            })(); 
+            </script>
+        <!--End of Tawk.to Script-->
+    </body>
 </html>
