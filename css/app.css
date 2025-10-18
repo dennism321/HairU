@@ -6726,5 +6726,7 @@ ul.social-buttons {
 .contact-details a {
   color: #d1d1d1;
   text-decoration: none; }
+.contact-details .contact-item a[href^="tel:"] {
+  font-weight: 700; }
 .contact-details a:hover {
   color: #6f8f52; }
