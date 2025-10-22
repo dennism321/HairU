@@ -436,7 +436,11 @@ document.addEventListener('DOMContentLoaded', function () {
                 nodes.forEach(function (node, index) {
                     var value;
                     if (Array.isArray(translations)) {
-                        value = translations[index];
+                        if (translations.length === 0) {
+                            value = undefined;
+                        } else {
+                            value = translations[index % translations.length];
+                        }
                     } else {
                         value = translations;
                     }
